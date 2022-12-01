@@ -1,0 +1,9 @@
+Initilize 400 node, 3 layer shallow network with assembled fixed transformation.
+
+Experiments involved 2 classes (awake, N1).
+
+loss = 1 * tf.reduce_sum(tf.multiply(n / 6, tf.multiply(tf.pow(S, 2.0), 1.) + tf.multiply(tf.pow(K - 3, 2.), 0.25))) + 0.1 * tf.square(mean - mean_x)
+
+epoch=500
+
+Restults:
